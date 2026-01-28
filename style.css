@@ -1,0 +1,40 @@
+h1{
+    background-color: blue;
+}
+body{
+    background-color: #aaa134;
+}
+.box{
+    height: 50vh;
+    width:500px;
+    background-color: blueviolet;
+    background-image: url(./IMG_20251108_133621.jpg);
+    /* background-size: contain; */
+    background-size: cover;
+    /* cover single image tries to capture the entire area
+    contain:means image gets repeated  */
+    background-repeat: no-repeat;
+    background-position: 0px;
+    /* make it perfect according to our box we use background position */
+    background-position: -10px,-300px;
+}
+div{
+    border-radius: 50%;
+    /* to make round border radius is 50 percent */
+    height:50vh;
+    width:500px;
+    background-color: #aaa134;
+    background-image: url(./IMG-20260116-WA0024.jpg);
+    background-repeat: no-repeat;
+   
+  
+    /* background-size: 50% 50%; */
+    background-position: 50%;
+    background-position: left;
+    /* background-position: right; */
+    /* background-position: center; */
+ background-size: cover ;
+   background-size: contain;
+   
+
+}
